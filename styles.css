@@ -1,0 +1,156 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+    width: 900px;
+    height: 600px;
+    background-color:white;
+    border-radius: 20px;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.card-left{
+    width: 460px;
+    height: 100%;
+  padding: 10px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background-color: #FADCD9;
+}
+.big-img{
+    width:450px ;
+    height:500px ;
+   display:flex;
+   transition: all 0.5s ease-in;
+  
+  
+    
+}
+.image-top{
+ width: 450px;
+ 
+}
+.show-img{
+    width:450px;
+    height:130px;
+    
+    display: flex;
+    justify-content:space-around;
+    padding: 5px;
+    
+
+}
+.show-img div{
+    width: 105px;
+    height: 120px;
+}
+.show-img img{
+    width: 101px;
+    height: 110px;
+}
+
+.card-right{
+    padding: 10px;
+    background-color:#F8AFA6;
+    color:#900020;
+}
+.star-group{
+    display:flex;
+   
+}
+.star{
+    padding: 5px 0px 5px
+}
+.star-group h4{
+    padding: 5px 10px 5px;
+}
+.star ion-icon:nth-child(1),
+.star ion-icon:nth-child(2),
+.star ion-icon:nth-child(3)
+{
+    color: gold;
+   }
+   .star ion-icon:nth-child(4),.star ion-icon:nth-child(5),.star-group h4{
+    color: grey;
+   }
+   .price{
+    margin: 25px 0px 25px 0px;
+    font-size: 20px;
+   }
+ .price span{
+    font-size: 12px;
+    font-weight: normal;
+    color: grey;
+    text-decoration: line-through;
+ }
+ .card-right p{
+    font-size: 20px;
+    color:#870A30;
+    font-weight: normal;
+ }
+ .active{
+    border: 2px solid black;
+    box-shadow: 2px 2px 3px grey;
+ }
+.form{
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 0px;
+}
+.form-group1 label,.form-group2 label{
+    font-size: 18px;
+    font-weight: bold;
+}
+.colorInput{
+    width: 200px;
+    height: 30px;
+    border-radius:5px;
+}
+.inp{
+    margin: 10px 0px;
+}
+.btn-q{
+    width:30px;
+    height:30px ;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border: none;
+    outline: none;
+}
+.form-group2 input{
+    width:40px;
+    height: 30px;
+    border: none;
+    text-align: center;outline: none;
+}
+.inp-grp{
+    display: grid;
+    width: 100px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-right: 10px;
+}
+
+
+.cart-btn{
+    height: 40px;
+    width:130px;
+    background-color:dodgerblue;
+    color: white;
+    border: none;
+
+}
